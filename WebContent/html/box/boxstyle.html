@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	div{
+		width: 200px;
+		height: auto/* 100px */;
+		margin: 15px;
+		border-width: 5px;
+		display:inline-block;
+	}
+	.box1{border-style:solid; border-color:red;}
+	.box2{border-style:dotted;border-color:blue;}
+	.box3{border-style:dashed;border-color:yellow;}
+
+	h1{padding-bottom:5px;
+		border-bottom:3px solid #ccc;}
+	p{padding:10px;
+		border:2px dotted black;}
+	
+	.round{
+		border-radius:20px;
+		border:2px solid red;
+	}
+	#bg{background:url("./images/pic1.jpg") no-repeat;
+		background-size:cover;
+	}
+	.box1{box-shadow:20px -2px 5px 0px;}
+	.box2{box-shadow:5px 5px 15px 5px;}
+</style>
+</head>
+<body>
+	<div class="box1">box1</div>
+	<div class="box2">box2</div>
+	<div class="box3">box3</div>
+	<hr>
+	<h1>박스 모델</h1>
+	<p>박스 모델은 실제 콘텐츠 영역, 박스와 콘텐츠 영역 사이의 여백인 패딩(padding), 
+	박스의 테두리(border), 그리고 여러 박스 모델 간의 여백인 마진(margin) 등의 요소로 
+	구성되어 있습니다. </p>
+	<hr>
+	<div class="round box1">박스 모델은 실제 콘텐츠 영역, 박스와 콘텐츠 영역 사이의 여백인 패딩(padding), 
+	박스의 테두리(border), 그리고 여러 박스 모델 간의 여백인 마진(margin) 등의 요소로 
+	구성되어 있습니다. </div>
+	<div class="round box2" id="bg">박스 모델은 실제 콘텐츠 영역, 박스와 콘텐츠 영역 사이의 여백인 패딩(padding), 
+	박스의 테두리(border), 그리고 여러 박스 모델 간의 여백인 마진(margin) 등의 요소로 
+	구성되어 있습니다. </div>
+</body>
+</html>

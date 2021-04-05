@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	.box{
+		font-size:12px;
+		width:60px;
+		height:60px;
+		background-color:#eee;
+		margin-bottom: 10px;	
+	}
+	div{
+		width:100px;
+		height:100px;
+		background-color:blue;
+		animation-name:change-bg;
+		animation-duration:3s;
+		-webkit-animation-name:change-bg;
+		-moz-animation-name:change-bg;
+		-o-animation-name:change-bg;
+		-ms-animation-name:change-bg;
+		-webkit-animation-duration:3s;
+		-moz-animation-duration:3s;
+		-o-animation-duration:3s;
+		-ms-animation-duration:3s}
+	@-webkit-keyframes change-bg{ /* keyframes 속성,시작과 끝을 비롯해 상태가 바뀌는 시점을 설정" */
+		from{
+			background-color:blue;
+			border:1px solid black;
+		}
+		to{
+		background-color:#a5d6ff;
+		border:1px solid blue;
+		border-radius:50%
+		}
+	}
+	@-moz-keyframes change-bg{
+		from{
+			background-color:blue;
+			border:1px solid black;
+		}
+		to{
+		background-color:#a5d6ff;
+		border:1px solid blue;
+		border-radius:50%
+		}
+	}
+	@keyframes change-bg{
+		from{
+				background-color:blue;
+				border:1px solid black;
+			}
+			to{
+			background-color:#a5d6ff;
+			border:1px solid blue;
+			border-radius:50%
+			}
+	}
+
+</style>
+</head>
+<body>
+<div>
+</div>
+</body>
+</html>

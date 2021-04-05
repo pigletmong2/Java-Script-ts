@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	.container{
+		min-height:100vh;
+		display:flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items:center;		
+	}
+	.formfield{
+		border:1px solid #ccc;
+		width:250px;
+		height:300px;
+		background-color:#fff;
+		text-align:center;
+		padding:20px;
+		border-radius:5px;
+		box-shadow:0 0 20px #ccc;
+	}
+	.formfield h2{
+		font-size:1.6em;
+		border-bottom:1px solid #ccc;
+		margin-bottom:0.7em;/* 라인간격조정 */
+		padding-bottom:0.5em;/* 아래라인 간격조정 */
+	}
+	.formfield input,
+	.formfield button{
+		display:block;
+		margin:10px auto;
+		padding:0.7em;
+		font-size:0.9em;
+		width:60%
+	}
+	.formfield button{
+		width:68%;
+	}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="formfield">
+		<h2>회원로그인</h2>
+		<form action="">
+			<input type="text" placeholder="아이디">
+			<input type="password" placeholder="패스워드">
+			<button>확인</button>
+		</form>
+	</div>
+</div>
+</body>
+</html>

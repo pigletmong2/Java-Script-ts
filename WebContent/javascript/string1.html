@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p>The escape sequence \" inserts a double quote in a string.</p>
+<!-- \' → '(single quote) / \" → "(double quote) / \\ → \backslash  -->
+
+<p id="demo"></p>
+<p id="demo2"></p>
+
+<script>
+var x="We are the so-called \"Vikings\" from the north.";
+document.getElementById("demo").innerHTML=x;
+
+var res=x.substring(3,6);
+document.getElementById("demo2").innerHTML=res;
+</script>
+</body>
+</html>

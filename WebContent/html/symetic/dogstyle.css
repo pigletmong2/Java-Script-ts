@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body{font-family:"맑은 고딕","고딕","굴림";
+}
+header{
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#069;
+	padding:10px;
+	overflow:hidden; /* 박스의 내용이 길때 설정방법, 내용이 넘치면 자름 */
+}
+ header h1{
+	width:40%;
+	float:left;/* 왼쪽에띄음 */
+	color:#ffffff;
+}
+header nav{
+	width:60%;
+	float:right;
+}
+nav ul{
+	list-style-type:none;
+}
+nav ul li{
+	display:inline;
+	float:left;
+	margin:15px;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+p{
+	font-size:15px;
+	line-height:20px;
+}
+h1{
+	font-size:2em;	
+} 
+
+article{/* 본문전체속성 */
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	border:5px solid #333;
+	padding:5px;
+	overflow:hidden;
+}
+
+article section{ /* 각 내용에 대한 속성 */
+	width:30%;
+	height:650px;
+	float:left;
+	margin:5px;
+	padding:5px;
+	border:1px dotted #333;
+}
+
+section h3{
+	background:url('./images/bg-note.png') no-repeat left center;
+	padding-left:30px;
+}
+aside{/* 부차적인 내용을 담는 태그,
+		안쪽(article본문내용과 관련) 또는 
+		바깥쪽(전체 웹페이지와 관련,div id="sidebar"와 같은 역할,예:블로그 사이드바)에 올수 있다. */
+	clear:both;
+	margin:0 auto;
+	width:80%;
+	height:auto;
+	padding:10px;
+	background-color:#99cc33;
+}
+footer{
+	clear:both;
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:0;
+	padding:10px;
+	background-color:#333;
+	color:white;
+	text-align:center;
+}

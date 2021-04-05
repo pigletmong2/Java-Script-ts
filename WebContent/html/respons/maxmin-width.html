@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	.box1,.box2,.box3,.box4{
+		border:1px solid gray;
+		padding:2em;/* 1em:16px */
+		text-align:center;
+		margin:0.5em;
+	}
+	.box1{width:500px;background-color:#fff238;}
+	.box2{max-width:500px;background-color:#fff238;}
+	.box3{min-width:500px;background-color:#0174DF;}
+	.box4{min-width:250px;max-width:500px; background-color:#fff238;}/* 무조건 이방식 사용 불가능 */
+</style>
+</head>
+<body>
+<div class="box1">크기 고정 박스</div>
+<div class="box2">max-width 박스</div>
+<div class="box3">min-width 박스</div>
+<div class="box4">max-width박스와 min-width혼합 박스</div>
+</body>
+</html>

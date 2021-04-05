@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+.container{
+	width:960px;
+	margin:0 auto;
+	background-color:#fff;
+	border:1px solid #e7e7e7;	
+}
+header{
+	position:relative;
+	height:280px;
+	background:url("./images/bg.png");
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+header h1{
+	position:absolute;
+	right:20px;
+	bottom:70px;
+	font-size:3em;
+	color:#ffc;
+	text-shadow:1px 2px 2px #000;
+	
+}
+header h2{
+	position:absolute;
+	right:20px;
+	bottom:30px;
+	color:#ff0;
+	font-size:2em; /* 0.7em 기본크기 */
+	text-shadow:0px 1px 1px #000;
+}
+.navi{ /* 배경 및 크기 거리 설정 */
+	background:#271717;
+	width:960px;
+	height:60px;
+	margin-top:-15px;
+}
+.navi ul{ /* 리스트 옵션 변경 */
+	list-style:none;
+	height:40px;
+	padding-bottom:5px;
+	padding-top:10px;
+}
+.navi ul li{
+	float:left;
+	font-size:15px;
+}
+.navi a, .navi a:visited{/* 링크와 방문했던 링크의 스타일 지정 */
+	text-decoration:none;
+	color:#fff;
+	width:150px;
+	display:block;
+	padding:10px 5px 5px 35px;
+}
+p{
+	font-size:15px;
+	line-height:20px;	
+}
+h1{font-size:2em;}
+.navi a:hover,.navi a:active,navi a:focus{/* 메뉴에 마우스를 올려놓을때/acitve(클릭했을때) 초점을(focus) 맞췄을때 스타일 */
+	text-shadow:0px 2px 2px #000;
+	color:#fc0;
+}
+header,section,footer,aside,article,figure{ display:block;}
+/* article{
+	width:80%;
+	border:5px solid #333;
+	padding:5px;
+	margin-left:auto;
+	margin-right:auto;
+} */
+
+.content{
+	width:720px;
+	float:left;
+	background-color:#fff;
+	padding-top:5px;
+	padding-left:10px;
+	
+}
+/* article section{
+	width:30%;
+	height:650px;
+	border:1px dotted #333;
+} */
+
+section h3{
+	background:url("./images/bg-note.png") no-repeat left center;
+	padding-left:30px;
+}
+
+aside{
+	clear:right;
+	width:200px;
+	height:550px;
+	padding:10px;
+	background-color: #dfd;
+	
+}
+.sidebar{
+	float:right;
+	width:200px;
+	height:550px;
+	background-color:#dfd;
+	padding-top:20px;
+	padding-left:10ps;
+	padding-right:10px;
+}
+.sidebar img{
+	margin-bottom:5px;
+	border:1px solid #ccc;
+	opacity:0.5;
+	text-align:center;
+}
+footer{
+	padding:10px 0;
+	background-color:#030;
+	color:#fff;
+	text-align:center;
+	clear:both;
+}
+.banner{
+	margin:0 10px 15px 10px;
+	padding:0;
+}

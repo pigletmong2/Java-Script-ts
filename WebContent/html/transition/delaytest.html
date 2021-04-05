@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#ex{
+		width:500px;
+		height:150px;
+		border:1px solid #aaa;
+		border-radius:30px;
+		margin:0 auto;
+		padding:20px;
+	}
+	.box{
+		font-size:12px;
+		width:60px;
+		height:60px;
+		background-color:#eee;
+		margin-bottom: 10px;
+		
+	}
+	#ex:hover .box{
+	transform:rotate(720deg);/* 각도조정시 deg 띄어쓰기 없이 붙여서 작성 */
+	margin-left:420px;}
+	
+	
+	#no-delay{transition-duration:3s;border:1px solid #ff6a00;}
+	#delay{transition-duration:1s;border:1px solid #006aff;}
+</style>
+</head>
+<body>
+<div id="ex">
+	<div id="no-delay" class="box">no-delay</div>
+	<div id="delay" class="box">delay</div>
+</div>
+</body>
+</html>

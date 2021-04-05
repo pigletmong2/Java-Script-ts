@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	/* .container{
+		align-items:flex-start|flex-end|center|stretch|baseline;
+	} */
+	.navi,.navi3{
+		display:flex;
+		background-color:#99ccff;
+		}
+	.logo{
+		font-size:1em;
+		padding-top:1.7em;
+	}
+		
+	.navi{justify-content:space-between;}
+	.navi3{justify-content:flex-start;}/* 정렬 */
+	ul{
+		list-style:none;
+		display:flex;
+		align-items: center;
+	}
+	li{
+		color:#fff;
+		margin:0 3px;
+		padding:8px 15px;
+		border:1px solid #fff;
+		border-radius:5px;
+		box-sizing:border-box;
+		align-items:center;
+	}
+</style>
+</head>
+<body>
+<div class="navi">
+	<div class="logo">justify-content:space-between</div>
+	<ul>
+		<li>메뉴1</li>
+		<li>메뉴2</li>
+		<li>메뉴3</li>
+		<li>메뉴4</li>
+	</ul>
+</div>
+<div class="navi3">
+	<div class="logo">justify-content:flex-start</div>
+	<ul>
+		<li>메뉴1</li>
+		<li>메뉴2</li>
+		<li>메뉴3</li>
+		<li>메뉴4</li>
+	</ul>
+</div>
+<p></p>
+</body>
+</html>
